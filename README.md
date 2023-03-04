@@ -7,15 +7,23 @@
 
 ### Company information 
 
-&lt;!--- Use this section to share information about your company such as founding information, mission statement, product description, product success, etc.--->
+99% of software is built with open source and the companies that know this have the secret sauce to scale teams and product quickly. Open-source unlocks opportunity in hiring, adoption, and product velocity and OpenSauced is the platform that connects open source to opportunity. 
+
+The open-source intelligence platform for finding the best developers and scaling engineering teams. Unlock the power of open-source with insights by the slice.
 
 ### Why participate in an Octernship with OpenSauced
 
-&lt;!--- Use this section to appeal to students. Consider sharing information about recent projects, the technology stack, the type of mentorship students can expect, listing future employment opportunities, etc. --->
+Brian Douglas is the founder and CEO of Open Sauced where he works on increasing the knowledge and insights of open-source communities. In the past he’s lead Developer Advocacy at GitHub by fostering a community of early adopters through content creation showcasing the newest Github features.
+
+Brian has a passion for open-source and loves mentoring new contributors through Open Sauced, the platform that empowers the best developers to work in open-source. He has mentored countless devs into their first or next role as an engineers.
 
 ### Octernship role description
 
-&lt;!--- Use this section to describe the role in as much detail as necessary. Please include the GitHub Classroom assignment submission date, length of the Octernship, and the monthly stipend --->
+The Octernship role for OpenSauced will be working with the API and to explore new ways to engage developers where they are, on GitHub. The application will explore your ability to leverage code to build a browser extension that connects OpenSauced to GitHub. 
+
+This will be the first step of your work for the next 6 months building out small features within the extension. You will work with Sr. Engineers and a Designer that will help build out your day to day work. 
+
+
 
 ### Recommended qualifications
 
