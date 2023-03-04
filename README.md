@@ -73,8 +73,21 @@ To participate, you must be:
 ### Task instructions
 
 1. Create an OpenSauced account by connecting your GitHub to https://opensauced.pizza
-1. Generate a vite powered chrome extension using this [guide from CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project). Note there twi version, vite@3 is beta. Both version will work for this assignment. You can also use this[DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide. 
-1. Write a function that checks to see if an OpenSauced user exists for a Github sser profile on github.com.
+1. Generate a vite powered chrome extension using this [guide from CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project). Note there twi version, vite@3 is beta. Both version will work for this assignment. You can also use this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide. 
+1. Write a function that checks to see if an OpenSauced user exists for a Github user profile on github.com. This will include the 
+
+For example:
+
+When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [bdougie](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
+
+```
+https://api.opensauced.pizza/v1/users/defunkt // returns 200
+https://api.opensauced.pizza/v1/users/defunkt // return 404
+```
+
+1. Display this context in the Extension PopUp.
+1. Limit this extension to only work on github.com profile pages
+1. Add button below the bio that links to the user's profile if it exists.
 
 ### Task Expectations
 
