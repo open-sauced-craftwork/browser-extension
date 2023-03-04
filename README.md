@@ -90,7 +90,7 @@ https://api.opensauced.pizza/v1/users/defunkt // return 404
 1. Add button below the bio that links to the user's profile if it exists.
 
 ## Solution
-The final solution should only show a button if the user is signed up for OpenSauced
+The final solution should only show a button if the GitHub user profile if the GitHub user is signed up for OpenSauced.
 
 <img width="245" alt="Screen Shot 2023-03-04 at 2 27 39 PM" src="https://user-images.githubusercontent.com/5713670/222931380-bc824441-abc8-46f9-af4b-8adf4b3ef373.png">
 
