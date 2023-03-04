@@ -60,7 +60,7 @@ To participate, you must be:
 
 * Active contributor on GitHub (monthly)
 
-* Willing to work overlap US hours (9am-12pm PT is required) 
+* Ability to work overlap US hours (at least 4 hours within the 7am-12pm PT timeframe) 
 
 # Assignment
 
