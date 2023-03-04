@@ -72,9 +72,9 @@ To participate, you must be:
 
 ### Task instructions
 
-1. Create an OpenSauced account https://opensauced.pizza
-2. Generate a chrome exnsion, use this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide
-3. Write a function that checks to see if an OpenSauced user exists for a Github User.
+1. Create an OpenSauced account by connecting your GitHub to https://opensauced.pizza
+1. Generate a vite powered chrome extension usinf this [guide from CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project). Note there twi version, vite@3 is beta. Both version will work for this assignment. You can also use this[DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide. 
+1. Write a function that checks to see if an OpenSauced user exists for a Github sser profile on github.com.
 
 ### Task Expectations
 
