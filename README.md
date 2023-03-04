@@ -7,6 +7,10 @@
 
 ### Company information 
 
+[What is OpenSauced?](https://www.youtube.com/watch?v=h8gwrzis-dY)
+
+[![youtube intro video](https://user-images.githubusercontent.com/5713670/222929371-fdaab545-dc4c-4808-b9aa-af6261c029be.jpg)](https://www.youtube.com/watch?v=h8gwrzis-dY)
+
 99% of software is built with open source and the companies that know this have the secret sauce to scale teams and product quickly. Open-source unlocks opportunity in hiring, adoption, and product velocity and OpenSauced is the platform that connects open source to opportunity. 
 
 The open-source intelligence platform for finding the best developers and scaling engineering teams. Unlock the power of open-source with insights by the slice.
@@ -77,6 +81,8 @@ To participate, you must be:
 Expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction is to add a button that links to the users profile. 
 
 - If there is missing documentation. A contribution to the [docs](https://docs.opensauced.pizza/) is expected.
+- If you are blocked longer than 2-3 hours, [ask in the Discussions](https://github.com/open-sauced-craftwork/browser-extension/discussions).
+- To better understand the OpenSauced, join the [Discord Community](https://discord.gg/opensauced).
 
 ### Task submission
 
