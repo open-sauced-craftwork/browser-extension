@@ -1,5 +1,5 @@
-
 # Information
+This should be a fun exercise.
 
 ## OpenSauced
 
