@@ -13,9 +13,11 @@ The open-source intelligence platform for finding the best developers and scalin
 
 ### Why participate in an Octernship with OpenSauced
 
-Brian Douglas is the founder and CEO of Open Sauced where he works on increasing the knowledge and insights of open-source communities. In the past he’s lead Developer Advocacy at GitHub by fostering a community of early adopters through content creation showcasing the newest Github features.
+[Brian Douglas](https://github.com/bdougie), your lead, is the founder and CEO of Open Sauced where he works on increasing the knowledge and insights of open-source communities. In the past he’s lead Developer Advocacy at GitHub by fostering a community of early adopters through content creation showcasing the newest Github features.
 
 Brian has a passion for open-source and loves mentoring new contributors through Open Sauced, the platform that empowers the best developers to work in open-source. He has mentored countless devs into their first or next role as an engineers.
+
+Today OpenSauced is a small team of 5 mostly engineers, that are working on the goal of turning open source into opportunity.
 
 ### Octernship role description
 
@@ -23,11 +25,30 @@ The Octernship role for OpenSauced will be working with the API and to explore n
 
 This will be the first step of your work for the next 6 months building out small features within the extension. You will work with Sr. Engineers and a Designer that will help build out your day to day work. 
 
+We are seeking an intern developer work alongside our rapidly growing company. In this role, you will help build out features and solutions to meet the needs of our OpenSauced users and community. This role will an integral part of our development team and documentation processes.
 
+**Key Responsibilities:**
+
+- Building features for the browser extension
+- Building reusable UI components using our existing the design system 
+- Building interactions to communicate with with GitHub and our API
+- Participate in design and engineering reviews to provide feedback during team meetings
+- Monitor application performance
+- Provide solutions to various solutions based on complexity and tradeoffs.
 
 ### Recommended qualifications
 
-&lt;!--- Use this section to describe what skills a student might need to complete the problem statement on GitHub Classroom --->
+**Desired Skills:**
+
+- Strong proficiency in React, Next.JS, and Tailwind
+- Familiarity with general backend APIs
+- Strong proficiency in HTML, CSS, JavaScript
+- Proficiency in TypeScript
+
+**Bonus Skills?:**
+
+- Familiarity with the GitHub API
+- Familiarity with backend APIs such as NestJS with Swagger
 
 ### Eligibility
 
@@ -39,13 +60,13 @@ To participate, you must be:
 
 * Active contributor on GitHub (monthly)
 
+* Willing to work overlap US hours (9am-12pm PT is required) 
+
 # Assignment
 
-## Create browser extension that connects with api.opensauced.pizza
+## Create browser extension that connects [api.opensauced.pizza](https://api.opensauced.pizza/) to a github.com profile.
 
 ### Task instructions
-
-&lt;!--- Use this section to describe the project that students are required to complete. We ask that you also include instructions on running and preparing the students' local environment if necessary. --->
 
 1. Create an OpenSauced account https://opensauced.pizza
 2. Generate a chrome exnsion, use this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide
@@ -53,7 +74,9 @@ To participate, you must be:
 
 ### Task Expectations
 
-&lt;!--- Please add expectations that students need to follow to be considered. Some examples include: completing the project on their own, not using code from external resources without comprehending the logic, etc.  --->
+Expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction is to add a button that links to the users profile. 
+
+- If there is missing documentation. A contribution to the [docs](https://docs.opensauced.pizza/) is expected.
 
 ### Task submission
 
@@ -66,5 +89,5 @@ Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-st
 
 ### Resources
 
-&lt;!--- Use this section to add resources for students to refer to. For example Documentation, Tutorials, Guides, and more.  ---># browser-extension
-This is the template repo for the OpenSauced browser extension assignment.
+- [api.opensauced.pizza](https://api.opensauced.pizza/)
+- [docs.opensauced.pizza](https://docs.opensauced.pizza/)
