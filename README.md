@@ -81,7 +81,7 @@ To participate, you must be:
 Expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction is to add a button that links to the users profile. 
 
 - If there is missing documentation. A contribution to the [docs](https://docs.opensauced.pizza/) is expected.
-- If you are blocked longer than 2-3 hours, [ask in the Discussions](https://github.com/open-sauced-craftwork/browser-extension/discussions).
+- If you are blocked longer than 2-3 hours, [ask in the Discussions](https://github.com/open-sauced-craftwork/browser-extension/discussions). Linking errors messages or StackOverflow questions is the preferred way to provide context when asking for help.
 - To better understand the OpenSauced, join the [Discord Community](https://discord.gg/opensauced).
 
 ### Task submission
