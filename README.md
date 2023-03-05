@@ -25,7 +25,7 @@ Today OpenSauced is a small team of 5 mostly engineers, that are working on the 
 
 ### Octernship role description
 
-The Octernship role for OpenSauced will be working with the API and to explore new ways to engage developers where they are, on GitHub. The application will explore your ability to leverage code to build a browser extension that connects OpenSauced to GitHub. 
+The Octernship role for OpenSauced will be working with the [OpenSauced API](https://api.opensauced.pizza/) and to explore new ways to engage developers where they are, on GitHub. The application will explore your ability to leverage code to build a browser extension using JavaScript or TypeScript (your choice) that connects OpenSauced to GitHub. 
 
 This will be the first step of your work for the next 6 months building out small features within the extension. You will work with Sr. Engineers and a Designer that will help build out your day to day work. 
 
@@ -72,11 +72,16 @@ To participate, you must be:
 
 ### Task instructions
 
-1. Create an OpenSauced account by connecting your GitHub to https://opensauced.pizza
-1. Generate a vite powered chrome extension using this [guide from CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project). Note there twi version, vite@3 is beta. Both version will work for this assignment. You can also use this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) as a guide. 
-1. Write a function that checks to see if an OpenSauced user exists for a Github user profile on github.com. This will include the 
+1. Create an OpenSauced account by connecting your GitHub to [opensauced.pizza](https://insight.opensauced.pizza)
+1. Generate a [vite](https://vitejs.dev/) powered browser extension using the [CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project) guide. Note there two versions, vite@3 is in beta but both will work fine for this assignment. You can also leverage this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) and the projects GitHub Discussion for additional help. This project is an open book assignment, so google as much as you'd like.
+1. Connect your localhost power extension to your browser. You should not be deploying this to production or any browser store. 
+1. Write a function that validates if an OpenSauced user account exists (using the OpenSauced API) for a GitHub user profile while viewing them on github.com. 
 
-For example:
+The final solution should only show a button if the GitHub user profile if the GitHub user is signed up for OpenSauced.
+
+<img width="245" alt="Screen Shot 2023-03-04 at 2 27 39 PM" src="https://user-images.githubusercontent.com/5713670/222931380-bc824441-abc8-46f9-af4b-8adf4b3ef373.png">
+
+API example:
 
 When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [bdougie](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
 
@@ -85,20 +90,17 @@ https://api.opensauced.pizza/v1/users/defunkt // returns 200
 https://api.opensauced.pizza/v1/users/defunkt // return 404
 ```
 
-1. Display this context in the extension popup.
-1. Limit this extension to only work on github.com profile pages
-1. Add button below the bio that links to the user's profile if it exists.
+Things to consider:
 
-## Solution
-The final solution should only show a button if the GitHub user profile if the GitHub user is signed up for OpenSauced.
-
-<img width="245" alt="Screen Shot 2023-03-04 at 2 27 39 PM" src="https://user-images.githubusercontent.com/5713670/222931380-bc824441-abc8-46f9-af4b-8adf4b3ef373.png">
+1. You can leverage the extension's popup to test the API by replace the Vite boilerplate.
+1. Limit this extension to only work on github.com profile pages. hint: the project will default to google.com, you will need to change that.
+1. Adding a button can be done using React, Vue, HTMl, what you prefer. The button should actually link to the OpenSauced profile if it exists.
 
 ### Task Expectations
 
 Expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction is to add a button that links to the users profile. 
 
-- If there is missing documentation. A contribution to the [docs](https://docs.opensauced.pizza/) is expected.
+- If there is missing documentation for OpenSauced, a contribution or open issue to the [docs](https://docs.opensauced.pizza/) repository is expected.
 - If you are blocked longer than 2-3 hours, [ask in the Discussions](https://github.com/open-sauced-craftwork/browser-extension/discussions). Linking errors messages or StackOverflow questions is the preferred way to provide context when asking for help.
 - To better understand the OpenSauced, join the [Discord Community](https://discord.gg/opensauced).
 
@@ -115,3 +117,5 @@ Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-st
 
 - [api.opensauced.pizza](https://api.opensauced.pizza/)
 - [docs.opensauced.pizza](https://docs.opensauced.pizza/)
+- [crxjs](https://crxjs.dev/) 
+- [vite](https://vitejs.dev/)
