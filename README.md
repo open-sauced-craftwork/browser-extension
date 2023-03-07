@@ -95,6 +95,7 @@ Things to consider:
 1. You can leverage the extension's popup to test the API by replace the Vite boilerplate.
 1. Limit this extension to only work on github.com profile pages. hint: the project will default to google.com, you will need to change that.
 1. Adding a button can be done using React, Vue, HTMl, what you prefer. The button should actually link to the OpenSauced profile if it exists.
+1. What else? How can you make this better? Auth to OpenSauced? Other Features?
 
 ### Task Expectations
 
