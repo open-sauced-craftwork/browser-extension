@@ -118,5 +118,6 @@ Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-st
 
 - [api.opensauced.pizza](https://api.opensauced.pizza/)
 - [docs.opensauced.pizza](https://docs.opensauced.pizza/)
+- https://github.com/open-sauced/assets
 - [crxjs](https://crxjs.dev/) 
 - [vite](https://vitejs.dev/)
