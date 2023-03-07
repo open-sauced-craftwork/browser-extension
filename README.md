@@ -83,10 +83,10 @@ The final solution should only show a button if the GitHub user profile if the G
 
 API example:
 
-When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [bdougie](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
+When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [defunkt](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
 
 ```
-https://api.opensauced.pizza/v1/users/defunkt // returns 200
+https://api.opensauced.pizza/v1/users/bdougie // returns 200
 https://api.opensauced.pizza/v1/users/defunkt // return 404
 ```
 
