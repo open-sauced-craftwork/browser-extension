@@ -73,7 +73,7 @@ To participate, you must be:
 ### Task instructions
 
 1. Create an OpenSauced account by connecting your GitHub to [opensauced.pizza](https://insights.opensauced.pizza)
-1. Generate a [vite](https://vitejs.dev/) powered browser extension using the [CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project) guide. Note there two versions, vite@3 is in beta but both will work fine for this assignment. You can also leverage this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) and the projects GitHub Discussion for additional help. This project is an open book assignment, so google as much as you'd like.
+1. Generate a [vite](https://vitejs.dev/) powered browser extension using the [CRXJS](https://crxjs.dev/vite-plugin/getting-started/vanilla-js/create-project) guide. Note there are two versions, vite@3 is in beta but both will work fine for this assignment. You can also leverage this [DEV post](https://dev.to/jacksteamdev/create-a-vite-react-chrome-extension-in-90-seconds-3df7) and the projects GitHub Discussion for additional help. This project is an open book assignment, so google as much as you'd like.
 1. Connect your localhost power extension to your browser. You should not be deploying this to production or any browser store. 
 1. Write a function that validates if an OpenSauced user account exists (using the OpenSauced API) for a GitHub user profile while viewing them on github.com. 
 
