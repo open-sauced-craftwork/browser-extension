@@ -77,7 +77,7 @@ To participate, you must be:
 1. Connect your localhost power extension to your browser. You should not be deploying this to production or any browser store. 
 1. Write a function that validates if an OpenSauced user account exists (using the OpenSauced API) for a GitHub user profile while viewing them on github.com. 
 
-The final solution should only show a button if the GitHub user profile if the GitHub user is signed up for OpenSauced.
+The final solution should only show a button if the GitHub user profile is signed up for OpenSauced.
 
 <img width="245" alt="Screen Shot 2023-03-04 at 2 27 39 PM" src="https://user-images.githubusercontent.com/5713670/222931380-bc824441-abc8-46f9-af4b-8adf4b3ef373.png">
 
