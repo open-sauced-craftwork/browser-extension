@@ -35,7 +35,7 @@ We are seeking an intern developer work alongside our rapidly growing company. I
 
 - Building features for the browser extension
 - Building reusable UI components using our existing the [design system](https://design.opensauced.pizza/) 
-- Building interactions to communicate with with GitHub and our API
+- Building interactions to communicate with GitHub and our API
 - Participate in design and engineering reviews to provide feedback during team meetings
 - Monitor application performance
 - Provide solutions to various solutions based on complexity and tradeoffs.
