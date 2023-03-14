@@ -99,7 +99,7 @@ Things to consider:
 
 ### Task Expectations
 
-Expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction is to add a button that links to the user's profile. 
+The expectation is your extension only works when the user is on GitHub and can interact with the page. This interaction adds a button that links to the user's profile. 
 
 - If there is missing documentation for OpenSauced, a contribution or open issue to the [docs](https://docs.opensauced.pizza/) repository is expected.
 - If you are blocked for longer than 2-3 hours, [ask in the Discussions](https://github.com/open-sauced-craftwork/browser-extension/discussions). Linking errors messages or StackOverflow questions is the preferred way to provide context when asking for help.
