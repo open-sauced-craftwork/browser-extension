@@ -29,12 +29,12 @@ The Octernship role for OpenSauced will be working with the [OpenSauced API](htt
 
 This will be the first step of your work for the next 6 months building out small features within the extension. You will work with Sr. Engineers and a Designer that will help build out your day to day work. 
 
-We are seeking an intern developer work alongside our rapidly growing company. In this role, you will help build out features and solutions to meet the needs of our OpenSauced users and community. This role will be an integral part of our development team and documentation processes.
+We are seeking an intern developer to work alongside our rapidly growing company. In this role, you will help build out features and solutions to meet the needs of our OpenSauced users and community. This role will be an integral part of our development team and documentation processes.
 
 **Key Responsibilities:**
 
 - Building features for the browser extension
-- Building reusable UI components using our existing the [design system](https://design.opensauced.pizza/) 
+- Building reusable UI components using our existing [design system](https://design.opensauced.pizza/) 
 - Building interactions to communicate with GitHub and our API
 - Participate in design and engineering reviews to provide feedback during team meetings
 - Monitor application performance
