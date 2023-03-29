@@ -85,19 +85,15 @@ API example:
 
 When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [defunkt](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
 
->**NOTE**: Please update your code w.r.t the following changes to the OpenSauced API.
->
->Previously it returned `404` for non OpenSauced users, now it returns 200; with `is_open_sauced_member` bool in response.
-
 ```
 GET https://api.opensauced.pizza/v1/users/bdougie
 ```
-- The reponse should contain `is_open_sauced_member: true` — i.e. `bdougie` _**is an**_ OpenSauced user/member
+- Response status code: `200` 🟢 — i.e. `bdougie` _**is**_ an OpenSauced user
 - Whereas,
 ```
-GET https://api.opensauced.pizza/v1/users/defunkt
+GET https://api.opensauced.pizza/v1/users/unknown
 ```
-- returns `is_open_sauced_member: false` — i.e. `defunkt` is _**NOT**_ an OpenSauced user/member
+- returns `404` 🔴 — i.e. `unknown` is _**NOT**_ an OpenSauced user
 
 Things to consider:
 
