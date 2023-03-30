@@ -86,9 +86,14 @@ API example:
 When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [defunkt](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
 
 ```
-https://api.opensauced.pizza/v1/users/bdougie // returns 200
-https://api.opensauced.pizza/v1/users/defunkt // return 404
+GET https://api.opensauced.pizza/v1/users/bdougie
 ```
+- Response status code: `200` 🟢 — i.e. `bdougie` _**is**_ an OpenSauced user
+- Whereas,
+```
+GET https://api.opensauced.pizza/v1/users/open-sauced-robot-vortex
+```
+- returns `404` 🔴 — i.e. `unknown` is _**NOT**_ an OpenSauced user
 
 Things to consider:
 
