@@ -1,0 +1,13 @@
+{
+  "name": "New OpenSauced Extension",
+  "version": "2.0",
+  "description": "Adds a button to the GitHub user profile page if the user exists on OpenSauced.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 3
+}
