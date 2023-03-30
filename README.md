@@ -91,7 +91,7 @@ GET https://api.opensauced.pizza/v1/users/bdougie
 - Response status code: `200` 🟢 — i.e. `bdougie` _**is**_ an OpenSauced user
 - Whereas,
 ```
-GET https://api.opensauced.pizza/v1/users/unknown
+GET https://api.opensauced.pizza/v1/users/open-sauced-robot-vortex
 ```
 - returns `404` 🔴 — i.e. `unknown` is _**NOT**_ an OpenSauced user
 
